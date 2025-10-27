@@ -1,0 +1,6 @@
+:: Criar o ambiente virtual (meu-Ambiente):
+python -m venv .meu-Ambiente
+
+
+:: acessar meu ambiente virtual:
+.\.meu-Ambiente\Scripts\Activate.ps1

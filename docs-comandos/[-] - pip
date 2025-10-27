@@ -1,3 +1,4 @@
-[Atualizar pip]         python.exe -m pip install --upgrade pip 
-[Instalar biblioteca]   python.exe -m pip install PyPDF2 
+[Atualizar pip]                 python.exe -m pip install --upgrade pip 
+[Instalar biblioteca]           python.exe -m pip install PyPDF2 
 
+[Pegar Bibliotecas instaladas]  pip freeze > requirements.txt
