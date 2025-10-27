@@ -1,0 +1,23 @@
+
+# Ambientes Virtuais
+.venv/
+venv/
+env/
+*.env
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Dependências do Node
+node_modules/
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Arquivos de log e sistema
+*.log
+*.sqlite
+.DS_Store
+
