@@ -1,3 +1,24 @@
-git add . --renormalize
-git commit -m "Normaliza finais de linha (line endings)"
-git push -u origin main
+:: Clonar repositório:
+git clone https://github.com/ChrysthianChrisley/utilitarios-dev.git
+
+:: O que tem de "novo" no local / pasta / repositório:
+git status 
+
+
+:: Adicionar tudo:
+git add .
+
+:: Adicionar algo específico:
+git add README.md (Adicionar README, por exemplo)
+
+:: Faça o Commit (Salvar Localmente)
+git commit -m "Escreva aqui uma mensagem, o que você mudou, adicionou, deletou.."
+
+:: Enviar para o GitHub 
+git push -u origin main (primeira vez, ligando o branch local ao branch remoto)
+
+:: Enviar para o GitHub
+git push (atualizações posteriores)
+
+:: Baixar as atualizações do GitHub
+git pull

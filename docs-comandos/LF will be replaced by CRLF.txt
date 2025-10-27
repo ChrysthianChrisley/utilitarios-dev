@@ -5,7 +5,7 @@ echo * text=auto eol=lf > .gitattributes
 Em seguida:
 git add .gitattributes
 git add . --renormalize
-git commit -m "Normaliza finais de linha (line endings)"
+git commit -m "Normaliza finais de linha"
 git push -u origin main
 
 Pra que serve:
