@@ -1,0 +1,3 @@
+[Atualizar pip]         python.exe -m pip install --upgrade pip 
+[Instalar biblioteca]   python.exe -m pip install PyPDF2 
+

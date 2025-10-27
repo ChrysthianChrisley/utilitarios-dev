@@ -1,0 +1,17 @@
+Para corrigir o erro "LF will be replaced by CRLF the next time Git touches it" no Windows, use o comando:
+
+echo * text=auto eol=lf > .gitattributes
+
+Em seguida:
+git add .gitattributes
+git add . --renormalize
+git commit -m "Normaliza finais de linha (line endings)"
+git push -u origin main
+
+Pra que serve:
+
+* text=auto: Diz ao Git para tentar adivinhar quais arquivos são de texto.
+
+eol=lf: Diz ao Git para forçar que todos os arquivos de texto sejam salvos com finais de linha LF (estilo Unix) dentro do repositório.
+
+Essa é a melhor prática porque garante que todos os arquivos no seu GitHub/GitLab tenham finais de linha consistentes
