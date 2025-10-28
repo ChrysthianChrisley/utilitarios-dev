@@ -11,7 +11,7 @@ git remote -v
 git remote add origin https://github.com/ChrysthianChrisley/utilitarios-dev.git
 
 :: Trocar repositório remoto:
-git remote set-url origin https://github.com/usuario/novo-repositorio.git
+git remote set-url origin https://github.com/ChrysthianChrisley/utilitarios-dev.git
 
 :: Adicionar tudo:
 git add .
