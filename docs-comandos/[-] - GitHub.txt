@@ -4,6 +4,15 @@ git clone https://github.com/ChrysthianChrisley/utilitarios-dev.git
 :: O que tem de "novo" no local / pasta / repositório:
 git status 
 
+:: ver o endereço Git
+git remote -v
+
+:: Ligar repositório local a um repositório remoto 
+git remote add origin https://github.com/ChrysthianChrisley/utilitarios-dev.git
+
+:: Trocar repositório remoto:
+git remote set-url origin https://github.com/usuario/novo-repositorio.git
+
 :: Adicionar tudo:
 git add .
 
